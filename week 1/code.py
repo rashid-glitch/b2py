@@ -1,7 +1,4 @@
-fullName="Rashid Ray"
+print("Even no.s upto 50")
 i=0
-for char in fullName:
-  if char in "aeiouAEIOU":
-    i+=1
-print(i)
-print(fullName.split())
+for i in range(0, 51, 2):
+    print(i, sep=", ")
